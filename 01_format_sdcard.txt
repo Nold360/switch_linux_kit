@@ -1,0 +1,22 @@
+See: https://github.com/fail0verflow/shofel2
+
+Root filesystems
+
+If all went well, you should have some penguins. You should probably put a root filesystem on your SD card. Userspace libraries and other patches coming soon.
+
+Here is an example on how to get Arch up and running.
+
+    make a new MBR partition table on a fresh sdcard
+    make two partitions on it
+    format the second one as ext4
+    mount that partition somewhere
+    download Arch Linux ARM rootfs
+    untar it into your partition as root.
+
+Here are some example commands you should not just copy paste into your terminal.
+
+$ mkdir -p /tmp/sdcard
+$ mount -t ext4 /dev/mmcblk0p2 /tmp/sdcard
+$ wget http://os.archlinuxarm.org/os/ArchLinuxARM-aarch64-latest.tar.gz
+$ sudo tar -xf ArchLinuxARM-aarch64-latest.tar.gz -C /tmp/sdcard
+$ sudo umount /dev/mmcblk0p2
