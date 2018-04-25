@@ -12,7 +12,7 @@ git submodule update --init
 ***Note:*** You'll still need to get `coreboot/tegra_mtc.bin` on your own.
 
 ```
-docker run -ti --rm -v(pwd):/source nold360/switch_linux_toolchain bash build.sh
+docker run -ti --rm -v$(pwd):/source nold360/switch_linux_toolchain bash build.sh
 ```
 
 
