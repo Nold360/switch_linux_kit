@@ -1,0 +1,18 @@
+[submodule "coreboot"]
+	path = coreboot
+	url = https://github.com/fail0verflow/switch-coreboot.git
+[submodule "shofel2"]
+	path = shofel2
+	url = https://github.com/fail0verflow/shofel2.git
+[submodule "u-boot"]
+	path = u-boot
+	url = https://github.com/fail0verflow/switch-u-boot.git
+[submodule "linux"]
+	path = linux
+	url = https://github.com/fail0verflow/switch-linux.git
+[submodule "imx_usb_loader"]
+	path = imx_usb_loader
+	url = https://github.com/boundarydevices/imx_usb_loader.git
+[submodule "librecore-utils"]
+	path = librecore-utils
+	url = https://github.com/librecore-org/librecore-utils
