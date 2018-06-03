@@ -1,14 +1,17 @@
 [submodule "coreboot"]
 	path = coreboot
+	branch = switch
 	url = https://github.com/fail0verflow/switch-coreboot.git
 [submodule "shofel2"]
 	path = shofel2
 	url = https://github.com/fail0verflow/shofel2.git
 [submodule "u-boot"]
 	path = u-boot
+	branch = switch
 	url = https://github.com/fail0verflow/switch-u-boot.git
 [submodule "linux"]
 	path = linux
+	branch = switch
 	url = https://github.com/fail0verflow/switch-linux.git
 [submodule "imx_usb_loader"]
 	path = imx_usb_loader
